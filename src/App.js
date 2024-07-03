@@ -1,22 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import logo from './logo.svg';
 
 function App() {
   return (
-    <div className="App">
+    // The noselect class is used to enhance the app user experience by preventing text and image selection,
+    // creating a more immersive application-like feel.
+    <div className="App noselect">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>The core of the app is here.</p>
       </header>
     </div>
   );
